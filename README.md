@@ -14,7 +14,7 @@ One way:**Prerequisites:**  Node.js
          3.5 pyinstaller --noconsole --onefile --clean --add-data "dist;dist" --add-data "logo.png;." server.py
    system can generate a folder named "dist", include 3 file,.exe is the running file.
 The other way:
-You can download the folder directly,whose name "FBCenturai".include1 3 file ,run ".exe".
+You can download the folder directly,whose named "FBCenturyai".include1 3 file ,run ".exe".
 No matter what ,you need license(one code per machine,365day.) ,else can not running .please contact me.
 
          
