@@ -12,9 +12,9 @@ One way:**Prerequisites:**  Node.js
          3.3 npm install;
          3.4 npm run build;
          3.5 pyinstaller --noconsole --onefile --clean --add-data "dist;dist" --add-data "logo.png;." server.py
-   system can generate a folder named "dist", icontains 3 file,.exe is the running file.
+   system can generate a folder named "dist", icontains 3 files,.exe is the running file.
 The other way:
-You can download the folder directly named "FBCenturyai".icontains 3 file ,run ".exe".
+You can download the folder directly named "FBCenturyai".icontains 3 files ,run ".exe".
 In either case ,you need license(one code per machine,365day.) ,else can not running .please contact me.
 
          
