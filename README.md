@@ -1,6 +1,6 @@
 **NOTE：**
 The Project is developed for 天津方标世纪规划建筑设计有限公司.
-It is build on Google aistudio, can refine prompt to generate image.
+It is build on Google aistudio and based on **GEMINI models**, can refine prompt to generate image.
 This a local version.You can load any model,but need apikey yourself.
 There are two way to use it.
 one way:**Prerequisites:**  Node.js
