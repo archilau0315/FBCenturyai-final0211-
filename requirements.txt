@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+requests
+wmi
+pywin32
+pyinstaller
+h11
+starlette
+httptools

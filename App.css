@@ -1,0 +1,77 @@
+/* 
+  CETURY AI - 核心视觉资产库 (Core Visual Asset Library)
+  [STRICT UI PRESERVATION MODE] 
+*/
+
+/* 1. 基础重置 */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* 2. 建筑网格背景 */
+.arch-grid { 
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0); 
+  background-size: 50px 50px; 
+  background-color: #fcfcfc;
+}
+
+.arch-grid-dark { 
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0); 
+  background-size: 50px 50px; 
+  background-color: #050505;
+}
+
+/* 3. 侧边栏与布局修正 */
+aside {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 4. 滚动条隐藏 */
+.scrollbar-hide::-webkit-scrollbar { 
+  display: none; 
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* 5. 动画定义 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* 6. 输入框毛玻璃效果加固 */
+.backdrop-blur-3xl {
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+}
+
+/* 7. 图片缩放时的阴影 */
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* 8. 进度条动画 */
+@keyframes progress {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-progress { 
+  animation: progress 1.5s ease-in-out infinite; 
+}
+
+/* 9. 按钮交互样式 */
+button:active {
+  transform: scale(0.98);
+}
