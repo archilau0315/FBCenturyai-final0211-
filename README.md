@@ -2,6 +2,7 @@
 The Project is developed for 天津方标世纪规划建筑设计有限公司.
 It is built on Google aistudio and based on **GEMINI models**, can refine prompt to generate images.
 This is a local version.You can load any model,but need an API key yourself.
+This application only has basic fubctuons.Generate imames,chatbox.Can load reference image.And it supports **multiple imagei**.
 There are two ways to use it.
 One way:**Prerequisites:**  Node.js
    1.download all of the codes;
