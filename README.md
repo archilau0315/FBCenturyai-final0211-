@@ -1,12 +1,9 @@
-NOTE：
-
-**Prerequisites:**  Node.js
-
+**NOTE：**
 The Project is developed for 天津方标世纪规划建筑设计有限公司.
 It is build on Google aistudio, can refine prompt to generate image.
 This a local version.You can load any model,but need apikey yourself.
 There are two way to use it.
-one way:
+one way:**Prerequisites:**  Node.js
    1.downlod all of the codes;
    2.run cmd in current folder;
    3.step by step:
